@@ -1,0 +1,186 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.lato-thin {
+  font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+/* colors */
+/* beige f6f7eb */
+/* red e94f37 */
+/* grey 393e41 */
+
+html,body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: #f6f7eb;
+  display: flex;
+  flex-direction: row;
+  color: #393e41;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 6vw;
+  color: #f6f7eb;
+}
+
+a {
+  color: #393e41;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5vw;
+  color: #f6f7eb;
+  margin: 3vh;
+}
+
+#nav {
+  flex: 0 0 20%;
+  display: flex;
+  flex-direction: column;
+  align-content: left;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#nav button {
+  background-color: transparent;
+  text-align: left;
+  font-size: 36px;
+  margin: 0;
+  color: #393e41;
+}
+
+#mainview {
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3vw;
+  width: 100%;
+}
+
+.maindivs {
+/*  border: 2px solid red;*/
+  width: auto;
+  padding: 2%;
+}
+
+.circle {
+  background-color: #e94f37;
+  height: 94vh;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  text-align: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+#name {
+  margin: 0;
+}
+
+#aboutdiv .circle{
+  line-height: 1.5;
+  color: #f6f7eb;
+  font-size: 20px;
+}
+
+#aboutdiv p {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#aboutdiv a {
+  color: #f6f7eb;
+}
+
+.connect {
+  text-decoration: none;
+  font-weight: bold;
+  margin: 100px;
+}
+
+
+#occupation {
+  font-weight: bold;
+  font-size: 2vw;
+  margin: 0;
+  padding: 0;
+}
+
+#connect {
+  font-size: 1.5vw;
+}
